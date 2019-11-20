@@ -30,3 +30,12 @@ npm install vuelidate
 
 Устанавливаем firebase
 npm i firebase
+
+для heroku
+npm i express
+
+adonis.js - стандартные сайты
+nestjs - огромный
+koa.js - маленький
+
+
