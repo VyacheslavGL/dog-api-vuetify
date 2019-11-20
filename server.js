@@ -12,6 +12,11 @@ const port = process.env.PORT || 8080;
 //включаем сервер статических файлов из папки dist
 app.use(express.static(path.join(__dirname, 'dist')));
 
+//на все запросы методом get отвечаем содержимым файлом index.html
+//чтобы при обращении к несуществующим вайлам на сервере грузился именно index.html
+// а дальше vue router сам разберется
+app.get('*', (req, res) => res.sendFile(path.join(__dirname, 'dist/index.html')));
+
 
 //запускаем сервер
 app.listen(port, (err)=> {
