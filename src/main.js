@@ -23,7 +23,7 @@ auth.onAuthStateChanged((user) => {
         // app.$forceUpdate();
         // console.log('Пользователь авторизован');
     }else {
-    console.log('Пользователь не авторизован');
+    // console.log('Пользователь не авторизован');
         store.commit(SET_USER, {
             uid: null,
             email: null,

@@ -55,7 +55,7 @@
                    setTimeout(()=> { this.$router.push({ name: 'home'}); }, 1200);
                }catch (e) {
                    this.errorMessages = e.message;
-                   console.log(e);
+                   // console.log(e);
                    //для перевода сообщений от Firebase
                    if(e.code === 'auth/email-already-in-use'){
                        this.errorMessages = 'Пользователь существует'
