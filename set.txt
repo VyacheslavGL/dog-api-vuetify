@@ -1,0 +1,32 @@
+﻿npx @vue/cli add vuex
+
+
+��� ������ � api
+npx @vue/cli create .
+npm i axios
+
+npm install vue bootstrap-vue bootstrap - убрать vue
+
+https://jino.ru/
+
+https://temp-mail.org/ru/
+
+jalefa@webmaild.net
+Логин:	jalefa
+Пароль:	H2dwf2F2Yra	Изменить
+Для подключения по FTP используйте имя сервера «jalefa.myjino.ru» или ваше доменное имя. Более подробные настройки указаны в разделе «Техническая информация».
+
+
+vuetify - удаляем bootstrap
+npm uninstall bootstrap bootstrap-vue
+
+установка
+npx @vue/cli add vuetify
+
+https://materialdesignicons.com/  - берем иконки
+
+npm i vue-the-mask
+npm install vuelidate
+
+Устанавливаем firebase
+npm i firebase
